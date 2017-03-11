@@ -4,3 +4,7 @@ var element=document.getElementById('main-text');
 element.innerHtml='New Value';
 //console.log("${element}")
 console.log('new loaded');
+var image=document.getElementById('madi');
+image.onclick = function(){
+    image.style.marginLeft = '100px';
+};
