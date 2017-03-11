@@ -9,20 +9,21 @@ var articles = {
     title: 'Article One | balaji',
     date: 'March 11,2016',
     content: `<p>This is my first article i like to travel</p>
-        <p>I like coding</p>`,
+        <p>I like coding</p>`},
 
     'article-two' : {
     title: 'Article One | balaji',
     date: 'March 11,2016',
     content: `<p>This is my first article i like to travel</p>
-        <p>I like coding</p>`,
+        <p>I like coding</p>`},
         
     'article-three' : {
     title: 'Article One | balaji',
     date: 'March 11,2016',
     content: `<p>This is my first article i like to travel</p>
-        <p>I like coding</p>`
+        <p>I like coding</p>`}
     };
+    
 function createTemplate(data)
 {
     var title = data.title;
