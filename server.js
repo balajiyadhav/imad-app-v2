@@ -12,15 +12,15 @@ var articles = {
         <p>I like coding</p>`},
 
     'article-two' : {
-    title: 'Article One | balaji',
+    title: 'Article two | balaji',
     date: 'March 11,2016',
-    content: `<p>This is my first article i like to travel</p>
+    content: `<p>This is my second article i like to travel</p>
         <p>I like coding</p>`},
         
     'article-three' : {
-    title: 'Article One | balaji',
+    title: 'Article Three | balaji',
     date: 'March 11,2016',
-    content: `<p>This is my first article i like to travel</p>
+    content: `<p>This is my third article i like to travel</p>
         <p>I like coding</p>`}
     };
     
