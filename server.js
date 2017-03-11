@@ -62,9 +62,12 @@ app.get('/:articleName', function (req, res) {
 
 //counter
 var counter = 0;
-app.get('/counter', function(req, res){
+app.get('/counter', function (req, res){
     counter = counter + 1;
     res.send(counter.toString());
+});
+app.get('/balaji' , function (req,res){
+    res.send("served here");
 });
 
 app.get('/ui/style.css', function (req, res) {
